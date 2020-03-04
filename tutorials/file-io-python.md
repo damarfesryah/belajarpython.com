@@ -29,16 +29,16 @@ Fungsi input([prompt]) setara dengan raw_input, kecuali mengasumsikan bahwa inpu
 
 {% highlight python %}
 >>> x = input("something:")
-something:10
+something:15
 
 >>> x
-'10'
+'15'
 
 >>> x = input("something:")
-something:'10' #entered data treated as string with or without ''
+something:'15' #entered data treated as string with or without ''
 
 >>> x
-"'10'"
+"'15'"
 {% endhighlight %}
 
 
